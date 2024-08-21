@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS-Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- heading -->
+    <div class="header">
+      <h1>Rock paper scissor Game</h1>
+    </div>
+
+    <!-- gameboard -->
+    <div class="gameboard">
+      <div class="choice" id="rock">
+        <button type="submit" class="rock" style="background-color: #2a9d8f">
+          Rock
+        </button>
+      </div>
+      <div class="choice" id="paper">
+        <button type="submit" class="paper" style="background-color: #219ebc">
+          Paper
+        </button>
+      </div>
+      <div class="choice" id="paper">
+        <button type="submit" class="scissor" style="background-color: #264653">
+          Scrissors
+        </button>
+      </div>
+    </div>
+
+    <!-- scorecard -->
+    <div class="scores">
+      <p class="score userscore">0</p>
+      <p class="score compscore">0</p>
+    </div>
+    <div class="players">
+      <p class="player">user</p>
+      <p class="player">computer</p>
+    </div>
+
+    <!-- message -->
+    <div id="msg">Game info display here!</div>
+    <script src="script.js"></script>
+  </body>
+</html>
